@@ -19,9 +19,9 @@ Resource 1 started up on port 3001
 Resource 2 started up on port 3002
 ```
 Then in your browser:
-&nbsp;&nbsp;&nbsp;&nbsp; the URL "http://localhost:3000/message" will show the message "This is the Proxy server"
-&nbsp;&nbsp;&nbsp;&nbsp; the URL "http://localhost:3000/resource1/message" will show the message "Received resource 1"
-&nbsp;&nbsp;&nbsp;&nbsp; the URL "http://localhost:3000/resource2/message" will show the message "Received resource 2"
+&nbsp;&nbsp;&nbsp;&nbsp; the URL "http://localhost:3000/message" will show the message "This is the Proxy server"  
+&nbsp;&nbsp;&nbsp;&nbsp; the URL "http://localhost:3000/resource1/message" will show the message "Received resource 1"  
+&nbsp;&nbsp;&nbsp;&nbsp; the URL "http://localhost:3000/resource2/message" will show the message "Received resource 2"  
 All three requests go through the same port, 3000, but resource 1 and 2 are running on ports 3001 and 3002 respectively.
 
 To kill all the processes, run
