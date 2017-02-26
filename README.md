@@ -18,7 +18,7 @@ Proxy server started up on port 3000
 Resource 1 started up on port 3001
 Resource 2 started up on port 3002
 ```
-Then in your browser:
+Then in your browser:  
 &nbsp;&nbsp;&nbsp;&nbsp; the URL "http://localhost:3000/message" will show the message "This is the Proxy server"  
 &nbsp;&nbsp;&nbsp;&nbsp; the URL "http://localhost:3000/resource1/message" will show the message "Received resource 1"  
 &nbsp;&nbsp;&nbsp;&nbsp; the URL "http://localhost:3000/resource2/message" will show the message "Received resource 2"  
