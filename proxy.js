@@ -10,10 +10,7 @@ const proxy = httpProxy.createProxy();
 // Set up proxy rules instance. The rules are expected prefixes of the request path and
 // are removed before proxiyng to a different target.
 let proxyRules = new HttpProxyRules({
-  rules: {
-    '.*/resource1/': 'http://localhost:3001', // Rule (1)
-    '.*/resource2/': 'http://localhost:3002'  // Rule (2)
-  }
+  "rules": require('./cfg/settings.json').proxyRules
 });
 
 // pre() runs before routing occurs; allowing us to proxy requests to different targets.
