@@ -8,7 +8,7 @@ https://en.wikipedia.org/wiki/Proxy_server
 ## Usage
 In this repository is a simple proxy server and two servers (resource1.js and resource2.js) it can proxy to; all written in node.js.
 
-All three servers offer the same endpoint "GET: /messages". The proxy.js allows us to prefix the path to proxy the request to the correct resource.
+All three servers offer the same endpoint "GET: /messages". The proxy server allows us to prefix the path to proxy the request to the correct resource.
 
 To start up the servers, run
 ```sh
